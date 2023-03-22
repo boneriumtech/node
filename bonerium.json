@@ -1,0 +1,45 @@
+{
+	"name": "bonechain",
+	"genesis": {
+		"nonce": "0x0000000000000000",
+		"timestamp": "0x0",
+		"extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90127f90120f846947f88eb8b6ced385e48c369a8975b4b0e0c57e7d0b08a7c22dc3fe988d5c47b5fcad7c40ffe8f0ae340545402eed67629512c711ae9332898bb7cc9bffc73b53acb4d45c341f84694dba02c5bfabbaa9fefbaa133c9a77e09180e6e62b0a3a4405a672ff31ed997d079c96dc1863266ee25ca49c3034d28edaeddcb4a08ac4a26d9d780ad9a4958fec838442029f84694058143a238c1d9e220b561667f51f1fdbf0b3eeeb0a727974e302390664c64bd721375cdf83f51544df505178986e9e8632e266ebe942df1cf4e2feaa390d5ad049562da50f84694437f2b7c74f0d04547eaa577b5dae31da510bce4b0a3d8501511b1811f217a910a3361225138689ddb118e4a2ef92bbe7bce0eabff0b77ce2c2811e0060109bc56910edaa780c28080",
+		"gasLimit": "0x3b9aca00",
+		"difficulty": "0x1",
+		"mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+		"coinbase": "0x0000000000000000000000000000000000000000",
+		"alloc": {
+			"0xF92B54a04f3fbB1A385Bc5c16a369cD4b37493c1": {
+				"balance": "0xbe4108d9eb4c59d89b4b97"
+			}
+		},
+		"number": "0x0",
+		"gasUsed": "0x70000",
+		"parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+	},
+	"params": {
+		"forks": {
+			"homestead": 0,
+			"byzantium": 0,
+			"constantinople": 0,
+			"petersburg": 0,
+			"istanbul": 0,
+			"EIP150": 0,
+			"EIP158": 0,
+			"EIP155": 0
+		},
+		"chainID": 9117,
+		"engine": {
+			"ibft": {
+				"epochSize": 100000,
+				"type": "PoA",
+				"validator_type": "bls"
+			}
+		},
+		"blockGasTarget": 0
+	},
+	"bootnodes": [
+		"/ip4/114.134.14.140/tcp/9117/p2p/16Uiu2HAm7M5ocHfqz5hiPtwkvf9QgkJamw1vcZHbzqoPGbMKbk34",
+		"/ip4/114.134.14.141/tcp/9117/p2p/16Uiu2HAmT7YscmjCBPFLvpTKKa5Xqcffbubn6pkj7FjBm29PEqo6"
+	]
+}
